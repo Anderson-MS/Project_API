@@ -1,0 +1,21 @@
+$breakpoint-min: 320px;
+$breakpoint-max: 425px;
+
+.Home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25vh;
+    color: #fff;
+
+    img {
+        max-width: 450px;
+        width: 100%;
+    }
+    h1 {
+        font-size: 1.1rem;
+        font-weight: bold;
+        padding: 20px;
+    }
+}
+
